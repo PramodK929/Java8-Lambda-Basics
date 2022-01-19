@@ -29,5 +29,5 @@ public class Greeter {
 }
 
 interface Stringlength {
-	int getLength(String s);
+	int getLength(String s); 
 }
