@@ -25,9 +25,9 @@ public class Greeter {
 		Stringlength stringlength = (s) -> s.length();  
 		System.out.println(stringlength.getLength("pramod"));
 	}
-	
-	interface Stringlength {
-		int getLength(String s);
-	}
 
+}
+
+interface Stringlength {
+	int getLength(String s);
 }
